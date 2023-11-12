@@ -21,10 +21,13 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
+        <p>Designer intéréssée par l'homme et tout et tout</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          Connectons nous
+          <a href="bento.me/ajamvane" className={utilStyles.lightText}>
+            Liens
+          </a>
+          ;)
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -40,6 +43,7 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/on4L86BnJz0?si=bfDEFZyjilZ9rzCy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </section>
     </Layout>
   );
